@@ -581,7 +581,7 @@ int main(void)
 	int blink_status = 0;
 	int err = 0;
 
-	printk("NCS peripheral example\n");
+	printk("NCS peripheral example_v1.0\n");
 
 	configure_gpio();
 
