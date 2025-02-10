@@ -581,6 +581,8 @@ int main(void)
 	int blink_status = 0;
 	int err = 0;
 
+	printk("NCS peripheral example\n");
+
 	configure_gpio();
 
 	err = uart_init();
